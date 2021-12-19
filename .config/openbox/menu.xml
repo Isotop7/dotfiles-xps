@@ -2,6 +2,9 @@
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
         <menu id="5" label="Network">
+            <item label="Brave"> <action name="Execute">
+                <execute>/home/hendrik/Applications/brave-browser/brave</execute>
+            </action> </item>
             <item label="Firefox"> <action name="Execute">
                 <execute>firefox</execute>
             </action> </item>
