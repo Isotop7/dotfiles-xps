@@ -1,0 +1,66 @@
+URxvt.iconFile			: /usr/share/icons/Tela-green-dark/symbolic/apps/terminal-symbolic.svg
+URxvt.geometry			: 120x26
+URxvt.termName			: rxvt-unicode-256color
+URxvt.perl-ext-common		: default,url-picker,clipboard,matcher
+URxvt.saveLines			: 1000
+URxvt.internalBorder		: 10
+
+!font
+!URxvt.font		: xft:CascadiaMonoPL:autohint=true:size=10,xft:DejaVu Sans Mono:autohint=true:size=10
+URxvt.font		: xft:CaskaydiaCove\ NF:autohint=true:size=10,xft:DejaVu Sans Mono:autohint=true:size=10
+URxvt.letterSpace	: -1
+
+! Color scheme: eighties.dark
+
+! special
+*.foreground:   #b5cd60
+*.background:   #282828
+*.cursorColor:  #c3d77f
+
+! black
+*.color0:       #131513
+*.color8:       #7e8f43
+
+! red
+*.color1:       #a62639
+*.color9:       #ae3b4c
+
+! green
+*.color2:       #7FCD60
+*.color10:      #8FD373
+
+! yellow
+*.color3:       #ff9f1c
+*.color11:      #ffb71c
+
+! blue
+*.color4:       #077187
+*.color12:      #388d9f
+
+! magenta
+*.color5:       #e14084
+*.color13:      #e35c95
+
+! cyan
+*.color6:       #24c3a7
+*.color14:      #5ed1be
+
+! white
+*.color7:       #d2e19f
+*.color15:      #e1ebbf
+
+URxvt.scrollBar		: false
+
+!URxvt.clipboard.autocopy	: true
+URxvt.clipboard.copycmd		: xclip -i -selection clipboard
+URxvt.clipboard.pastecmd	: xclip -o -selection clipboard
+URxvt.keysym.M-c		: perl:clipboard:copy
+URxvt.keysym.M-v		: perl:clipboard:paste
+
+URxvt.url-launcher:	/usr/bin/firefox
+URxvt.matcher.button:	1
+URxvt.matcher.rend.0:	Uline Italic fg5
+
+! irssi config
+URxvt.eightBitInput:	false
+URxvt.metaSendsEscape:	true
