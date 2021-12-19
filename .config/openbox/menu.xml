@@ -10,6 +10,14 @@
             </action> </item>
         </menu>
         <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+            </menu>
             <item label="Htop"> <action name="Execute">
                 <execute>alacritty -e htop</execute>
             </action> </item>
