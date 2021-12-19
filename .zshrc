@@ -105,7 +105,7 @@ export LANG=de_DE.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Custom alias
-alias runMenuMaker="mmaker OpenBox -t Rxvt --no-legacy --no-debian -f"
+alias runMenuMaker="mmaker OpenBox -t Alacritty --no-legacy --no-debian -f"
 alias reloadPolybar="killall -q polybar; polybar -q -c ~/.config/polybar/config.ini main & disown"
 alias syncDotfiles="cd ~/dev/dotfiles-xps; ./syncDotfiles.sh; cd ~-"
 alias unbz2="tar -xvjf"

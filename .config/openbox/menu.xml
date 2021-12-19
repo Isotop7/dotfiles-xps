@@ -1,51 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
-        <menu id="1" label="Development">
-            <item label="Visual Studio Code"> <action name="Execute">
-                <execute>/home/hendrik/Applications/VSCode-linux-x64/code</execute>
-            </action> </item>
-        </menu>
-        <menu id="6" label="Graphics">
-            <item label="mtPaint"> <action name="Execute">
-                <execute>mtpaint</execute>
-            </action> </item>
-            <item label="Viewnior"> <action name="Execute">
-                <execute>viewnior</execute>
-            </action> </item>
-        </menu>
         <menu id="5" label="Network">
-            <item label="Discord"> <action name="Execute">
-                <execute>/home/hendrik/Applications/Discord/Discord</execute>
-            </action> </item>
             <item label="Firefox"> <action name="Execute">
                 <execute>firefox</execute>
             </action> </item>
         </menu>
-        <menu id="19" label="Shells">
-            <item label="Thunar File Manager"> <action name="Execute">
-                <execute>thunar</execute>
-            </action> </item>
-        </menu>
         <menu id="37" label="System">
-            <menu id="36" label="Settings">
-                <item label="Customize Look and Feel"> <action name="Execute">
-                    <execute>lxappearance</execute>
-                </action> </item>
-                <item label="File Manager Settings"> <action name="Execute">
-                    <execute>thunar-settings</execute>
-                </action> </item>
-                <item label="Openbox Configuration Manager"> <action name="Execute">
-                    <execute>obconf</execute>
-                </action> </item>
-            </menu>
             <item label="Htop"> <action name="Execute">
-                <execute>rxvt -e htop</execute>
-            </action> </item>
-        </menu>
-        <menu id="38" label="Utilities">
-            <item label="About Xfce"> <action name="Execute">
-                <execute>xfce4-about</execute>
+                <execute>alacritty -e htop</execute>
             </action> </item>
         </menu>
         <separator/>
