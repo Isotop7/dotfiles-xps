@@ -107,6 +107,7 @@ export LANG=de_DE.UTF-8
 # Custom alias
 alias runMenuMaker="mmaker OpenBox -t Alacritty --no-legacy --no-debian -f"
 alias reloadPolybar="killall -q polybar; polybar -q -c ~/.config/polybar/config.ini main & disown"
+alias reloadWallpaper="feh --bg-center ~/Pictures/wallpaper"
 alias syncDotfiles="cd ~/dev/dotfiles-xps; ./syncDotfiles.sh; cd ~-"
 alias unbz2="tar -xvjf"
 alias runCruxBuild="rm -f ~/qemu/images/crux_diff.qcow2; qemu-img create -f qcow2 -F qcow2 -b ~/qemu/images/crux.qcow2 ~/qemu/images/crux_diff.qcow2; qemu-system-x86_64 -enable-kvm -smp 4 -hda ~/qemu/images/crux_diff.qcow2 -m 4096"
