@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="Geany"> <action name="Execute">
+                <execute>geany</execute>
+            </action> </item>
+        </menu>
         <menu id="5" label="Network">
             <item label="Brave"> <action name="Execute">
                 <execute>/home/hendrik/Applications/brave-browser/brave</execute>
