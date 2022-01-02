@@ -113,3 +113,4 @@ alias unbz2="tar -xvjf"
 alias runCruxBuild="rm -f ~/qemu/images/crux_diff.qcow2; qemu-img create -f qcow2 -F qcow2 -b ~/qemu/images/crux.qcow2 ~/qemu/images/crux_diff.qcow2; qemu-system-x86_64 -enable-kvm -smp 4 -hda ~/qemu/images/crux_diff.qcow2 -m 4096"
 alias runCruxBase="qemu-system-x86_64 -enable-kvm -smp 4 -hda ~/qemu/images/crux.qcow2 -m 4096"
 alias feh='feh --conversion-timeout 1'
+alias verifyPorts='prtverify -c /usr/ports/isotop7 /usr/ports/isotop7/*'
