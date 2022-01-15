@@ -41,7 +41,7 @@ font:
   bold_italic:
     family: 'CaskaydiaCove NF'
     style: Bold Italic
-  size: 7
+  size: 9
 
   offset:
     x: 0
